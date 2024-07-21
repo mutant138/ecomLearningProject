@@ -1,0 +1,25 @@
+/* CartElements.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h1 {
+    font-size: 2rem; /* Adjust as needed */
+  }
+  
+  .card-img-top {
+    max-height: 200px; /* Adjust as needed */
+    object-fit: cover;
+  }
+  
+  .cart-card {
+    max-width: 300px; /* Adjust the max width for medium size */
+    margin: 0 auto; /* Center the card horizontally */
+  }
+  
+  .row {
+    justify-content: center;
+  }
+  
